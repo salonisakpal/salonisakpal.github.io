@@ -1,0 +1,234 @@
+/* Use a monochromatic color theme with shades of gray */
+
+:root {
+    --primary-color: #222;
+    --secondary-color: #eee;
+    --accent-color: #444;
+  }
+  
+  /* Set the background color for the entire webpage */
+  body {
+    background-color: var(--secondary-color);
+  }
+  
+  /* Style the header and navigation menu */
+  header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  nav a:hover {
+    color: var(--accent-color);
+  }
+  
+  /* Style the banner section */
+  #banner {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #banner h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  #banner p {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  
+  .blog-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .blog-card {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .blog-card:hover {
+    background-color: #666;
+  }
+  
+  /* Style the about section */
+  #about {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Style the gallery section */
+  .gallery-container {
+    border-radius: 10px;
+    background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.gallery-container img {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    /* padding-left: 5px; */
+    /* padding-right: 5px; */
+    height: 80%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+#gallery h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.1);
+}
+
+  /* Style the contact section */
+  #contact {
+    position: relative;
+    z-index: 1;
+    background-image: url('img/bg1.jpg');
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 100px 0;
+    border: 2px solid #555;
+    border-radius: 10px;
+    color: #555;
+    height: 100%;
+    filter: grayscale(100%);
+  }
+  
+  #contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .border{
+    background-color: #C6BBBB;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+
+  }
+  form {
+    display: inline-block;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  /* textarea {
+    
+    height: 150px;
+  } */
+
+  form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+  
+
+  /* button[type="submit"] {
+    position: absolute;
+    background-color: #111;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #333;
+    color: #fff;
+  }
+   */
+  footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    position: absolute;
+
+  }
