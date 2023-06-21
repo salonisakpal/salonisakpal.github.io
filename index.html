@@ -1,91 +1,482 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
 <head>
-	<title>Dancer Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="style2.css">
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Saloni Anil Sakpal</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/Black & White Minimalist Aesthetic Initials Font Logo (2).png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/Black & White Minimalist Aesthetic Initials Font Logo (2).png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/Black & White Minimalist Aesthetic Initials Font Logo (2).png">
+    <link rel="manifest" href="site.webmanifest">
+
 </head>
-<body>
-	<header>
-		<nav>
-			<ul>
-                <li><img src="img/mylogo.png" alt="LOGO" style="width: 10%;"></li>
-                <li></li>
-                <li></li>
 
-				<li><a href="#">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#gallery">Gallery</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
+<body id="top">
 
-	<main>
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
 
-        <section id="banner">
-            <div class="banner-container">
-              <div class="banner-img-container">
-                <img src="img/me2.jpg" alt="Profile Picture">
-              </div>
-              <div class="banner-text-container">
-                <h1>Saloni Sakpal</h1>
-                <p>Explore my world of dance!</p>
-              </div>
+    <!-- site header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/Black & White Minimalist Aesthetic Initials Font Logo (2).png" alt="Homepage" style="width: fit-content;" height="fit-content;">
+            </a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-main-nav">
+                <li class="current"><a class="smoothscroll" href="#intro" title="intro">Intro</a></li>
+                <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll" href="#services" title="services">Services</a></li>
+                <!--<li><a class="smoothscroll" href="#works" title="works">Works</a></li>-->
+                <li><a class="smoothscroll" href="#contact" title="contact us">Say Hello</a></li>	
+            </ul>
+
+            <ul class="header-social">
+                <li><a href="https://www.linkedin.com/in/saloni-sakpal-b217b3270"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                <!--<li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>-->
+                <li><a href="https://instagram.com/saloniiiii____?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <a href="mailto:salonii.sakpal@gmail.com"><i class="fab fa-email" aria-hidden="true"></i></a>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- intro
+    ================================================== -->
+    <section id="intro" class="s-intro target-section">
+
+        <div class="row intro-content">
+
+            <div class="column large-9 mob-full intro-text">
+                <h3>Hello, I am</h3>
+                <h1>
+                    Saloni Sakpal <br>
+                </h1>
+                <h2 style="color: gray; font-size: 60px;">
+                    Web Developer<br>
+                </h2>
             </div>
-          </section>
-		  <div>
-			<p>hello world</p>
-		  </div>
 
-		<section id="about">
-			<h2>About Me</h2>
-            <p>Meet Saloni, a young girl from Mumbai, India who had always been passionate about dancing since she was a child. She spent most of her time grooving to Bollywood tunes and practicing various dance styles, such as Kathak and Contemporary. As she grew older, Saloni's parents encouraged her to pursue a career in engineering and complete her diploma, which she did with flying colors.</p>
+            <div class="intro-scroll">
+                <a href="#about" class="intro-scroll-link smoothscroll">
+                    Scroll For More
+                </a>
+            </div>
 
-		</section>
+            <div class="intro-grid"></div>
+            <div class="intro-pic"></div>
 
-		<section id="gallery">
-			<h2>Gallery</h2>
-			<div class="gallery-container">
-				<img src="img/dance1.jpg" alt="Dance 1">
-				<img src="img/dance2.jpg" alt="Dance 2">
-				<img src="img/dance3.jpg" alt="Dance 3">
-				<img src="img/dance4.jpg" alt="Dance 4">
-				<img src="img/dance5.jpg" alt="Dance 5">
-				<img src="img/dance6.jpg" alt="Dance 6">
-			</div>
-		</section>
-        <section id="gallery">
-			<h2>Video Gallery</h2>
-			<div class="gallery-container">
-				<img src="img/dance1.jpg" alt="Dance 1">
-				<img src="img/dance2.jpg" alt="Dance 2">
-				<img src="img/dance3.jpg" alt="Dance 3">
-				<img src="img/dance4.jpg" alt="Dance 4">
-				<img src="img/dance5.jpg" alt="Dance 5">
-				<img src="img/dance6.jpg" alt="Dance 6">
-			</div>
-		</section>
+        </div> <!-- end row -->
 
-		<section id="contact">
-            <div class="border">
-			<h2>Contact Me</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <br><br>
-                <button type="submit">Send Message</button>
-            </form>
+    </section> <!-- end intro -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="about-me">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">About Me</h2>
+                </div>
+            </div>
+
+            <div class="row about-me__content" data-aos="fade-up">
+                <div class="column large-full about-me__text">
+                    <p class="lead">
+                        Welcome to my portfolio website! My name is Saloni, and I am passionate about both web development and dancing. 
+                        As a multi-talented individual, I have found joy in pursuing these two creative disciplines, constantly seeking ways to blend technology and artistry.
+                    </p>
+
+                    <p>
+                        <u>Web Development:</u><br>
+                        With a strong foundation in web development, I strive to create immersive and engaging online experiences. 
+                        From designing visually appealing user interfaces to developing robust and responsive websites, I enjoy the entire process of bringing ideas to life. 
+                        My proficiency in HTML, CSS, JavaScript, and various frameworks allows me to craft modern, intuitive, and user-friendly websites that leave a lasting impression. 
+                        I am also well-versed in backend technologies, enabling me to build dynamic and interactive web applications.
+                    </p>
+
+                    <p>
+                        <u>Dancing:</u><br>
+                        When I'm not immersed in the world of web development, you'll often find me in the dance studio, expressing myself through movement. 
+                        Dance has been an integral part of my life for as long as I can remember, and it has taught me discipline, creativity, and the importance of teamwork. I have trained extensively in various dance forms, including contemporary, jazz, and hip-hop. Through my performances, I aim to convey emotions, tell stories, and captivate audiences. 
+                        Dance has given me a unique perspective on aesthetics, rhythm, and coordination, which I bring into my web development projects.
+                    </p>
+
+                    <p>
+                        <u>Combining the Best of Both Worlds:</u><br>
+                        What sets me apart is my ability to combine my technical expertise in web development with the fluidity and grace of dance. 
+                        This fusion allows me to create websites that not only function flawlessly but also evoke an emotional response. I believe in the power of aesthetics, and I approach every project with a keen eye for detail, incorporating captivating visuals and intuitive user experiences. 
+                        By infusing my designs with elements of movement, rhythm, and storytelling, I strive to engage users on a deeper level, making their online journeys memorable.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="row about-me__buttons">
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <a href="https://www.linkedin.com/in/saloni-sakpal-b217b3270" class="btn btn--stroke full-width">Hire Me</a>
+                </div>
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <a href="images/salonisakpal (1).pdf" class="btn btn--primary full-width">Download CV</a>
+                </div>
+            </div>
+
+        </div> <!-- end about-me -->
+
+        <div class="about-experience">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">Work & Education</h2>
+                </div>
+            </div>
+
+            <div class="row about-experience__timeline">
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--work"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">May 2023</p>
+                                <h3 class="item-title">Final Year Project</h3>
+                                <h5>Sakhi: A Voice Assistant</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>Sakhi is an innovative voice assistant project that showcases my expertise in cutting-edge machine learning techniques and natural language processing. 
+                                    Developed with a focus on user-friendliness and accessibility, Sakhi revolutionizes the way people interact with technology by providing a seamless and personalized experience through voice commands. 
+                                    As a multilingual system, Sakhi caters to diverse cultural backgrounds and regions. With its ability to learn and adapt to user behavior, Sakhi offers accurate and relevant responses, making tasks hands-free and more efficient. 
+                                    This project highlights my skills in system analysis, design, and implementation, as well as my ability to leverage advanced technologies to create impactful solutions that improve productivity and simplify daily life interactions.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">June 2022</p>
+                                <h3 class="item-title">Miniproject</h3>
+                                <h5>Automated Plant Watering System</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>The project I worked on involved developing an automated plant watering system using IoT technology. By integrating sensors, actuators, and a central control unit, the system accurately determined plant watering needs based on real-time data. 
+                                    This innovative solution ensured optimal plant growth and health, highlighting my skills in sensor integration and IoT development.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">June 2020</p>
+                                <h3 class="item-title">Diploma Final Year Project</h3>
+                                <h5>Society Management System</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>In collaboration with my team, we created a society management system utilizing MySQL as the database technology. 
+                                    This system effectively stores and manages the data of residents in a housing society, offering seamless organization and accessibility. 
+                                    With MySQL's reliability and scalability, our project showcases our proficiency in leveraging database technologies for efficient data management in the context of society administration and potential business applications.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--education"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">February 2021 - June 2023</p>
+                                <h3 class="item-title">K J Somaiya Institute of Technology</h3>
+                                <h5>Bachelor's Degree</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>During my enriching three years at college, I had the opportunity to acquire a diverse range of skills, including IoT, data analysis, and web designing. 
+                                    Through immersive coursework and hands-on projects, I developed expertise in sensor integration, data analysis, and creating visually appealing websites. 
+                                    Additionally, I gained proficiency in programming languages like Python and Java, enabling me to solve complex problems and develop robust software solutions.
+                                    Alongside my academic pursuits, I also made cherished memories and lifelong friends, fostering a sense of camaraderie and teamwork. 
+                                    These college experiences have not only equipped me with valuable skills but also shaped me into a well-rounded individual ready to thrive in the professional world.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">August 2017 - December 2020</p>
+                                <h3 class="item-title">Government Polytechnic Mumbai</h3>
+                                <h5>Diploma in Informationn Technology</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>During my three years at my diploma college in IT, I gained a solid foundation in various technical skills, including programming languages, system analysis and design, networking and security, and web development. 
+                                    Through practical projects and teamwork, I developed problem-solving abilities and honed my communication skills. 
+                                    The experience not only equipped me with valuable IT knowledge but also allowed me to forge lasting memories and connections with my peers and mentors.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">July 2017</p>
+                                <h3 class="item-title">Canossa High School</h3>
+                                <h5>SSC</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>During my school years, I had a typical yet memorable experience that taught me valuable life lessons. 
+                                    While the academic curriculum provided a foundation of knowledge, it was the moments outside the classroom that truly shaped me. 
+                                    I made cherished memories with friends, participated in extracurricular activities, and navigated through challenges that taught me resilience, teamwork, and adaptability. 
+                                    These experiences instilled in me a sense of personal growth, helped me discover my passions, and prepared me for the journey ahead.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end about-experience -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services ss-dark target-section">
+
+        <div class="shadow-overlay"></div>
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Capabilities</h2>
+
+                <p class="section-desc">
+                    Crafting code, choreographing creativity.
+                </p>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="row services-list block-large-1-3 block-medium-1-2 block-tab-full">
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Web Design</h4>
+                    <p>
+                        As a web designer, I specialize in creating visually stunning and user-centered websites. 
+                        With meticulous attention to detail and a passion for captivating design, I craft intuitive interfaces and harmonious visuals that leave a lasting impact. 
+                        Leveraging my expertise in HTML, CSS, JavaScript, and design tools, I transform ideas into functional and engaging digital experiences. 
+                        From responsive design to seamless user interactions, I am dedicated to exceeding clients' expectations and delivering innovative web designs that captivate audiences.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Digital Marketing</h4>
+                    <p>
+                        As a digital marketer, I specialize in crafting strategic campaigns that elevate brands in the digital realm. 
+                        Through data-driven insights and a creative mindset, I drive impactful results, from increasing brand visibility to boosting customer engagement and conversions. 
+                        By staying ahead of industry trends and leveraging innovative tools, I deliver targeted and measurable digital marketing solutions that propel businesses to success.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Digital Media Manager</h4>
+                    <p>
+                        As a digital media manager, I strategically manage online platforms to drive brand success. Through engaging content, targeted advertising, and data analysis, I optimize digital presence to connect with audiences and achieve measurable results. 
+                        With a keen eye for trends and a passion for storytelling, I create compelling campaigns that resonate and foster brand growth.
+                    </p>
+                </div>
+            </div>
+
+            <!--<div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title"></h4>
+                    <p>
+                    
+                    </p>
+                </div>
+            </div> -->
+
+            <center><div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Content Creation</h4>
+                    <p>
+                        As a content creator, I have a knack for crafting impactful stories that resonate with audiences. 
+                        With a keen eye for detail and a passion for creativity, I bring ideas to life through engaging blog posts, articles, and social media content. By leveraging the power of words, visuals, and compelling narratives, I aim to inspire, educate, and entertain readers. Content creation is my creative outlet, where I can explore diverse topics and connect with others through shared experiences. 
+                        Through my work, I strive to leave a lasting impression and make a positive impact in the digital realm.
+                    </p>
+                </div>
+            </div></div></center>
+
+            <!--<div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Mobile Design</h4>
+                    <p>
+                    Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                    a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                    asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                    </p>
+                </div>
+            </div> -->
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+
+        </div> <!-- end testimonials -->
+
+    </section> <!-- end s-testimonials -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact ss-dark target-section">
+
+        <div class="row heading-block" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading">Get In Touch</h2>
+            </div>
+        </div>
+
+        <div class="row contact-main" data-aos="fade-up">
+            <div class="column large-full">
+                <p class="contact-email">
+                    <a href="mailto:#0">salonii.sakpal@gmail.com</a>
+                </p>
+
+                <p class="section-desc">
+                I'm happy to connect, listen and help. Let's work together and build
+                something awesome. Let's turn your idea to an even greater product.
+                <a href="mailto:#0">Email Me</a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="row contact-infos" data-aos="fade-up" data-aos-anchor=".contact-main">
+
+            <div class="column large-5 medium-full contact-phone">
+                <h4>Call Me</h4>
+                <a href="tel:197-543-2345">8369537100</a>
+            </div>
+
+            <div class="column large-7 medium-full contact-social">
+                <h4>Social</h4>
+                <ul>
+                    <li><a href="#https://www.linkedin.com/in/saloni-sakpal-b217b3270" title="LinkedIn">LinkedIn</a></li>
+                    <!--<li><a href="#0" title="Facebook">Twitter</a></li>-->
+                    <li><a href="#https://instagram.com/saloniiiii____?igshid=MzRlODBiNWFlZA==" title="Instagram">Instagram</a></li>
+                </ul>
             </div>
             
-		</section>
-	</main>
 
-	<footer>
-		<p>Copyright &copy; Dancer Portfolio 
-	</footer>
+        </div> <!-- end contact-infos -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="column large-full ss-copyright">
+                <span>© Copyright SaloniSakpal</span> 
+                <!--<span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>-->
+            </div>            
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
-</html>
